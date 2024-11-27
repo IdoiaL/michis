@@ -76,6 +76,9 @@ h3{
 .h3_ventana{
     text-align: left;
 }
+.ventana{
+    width: 100%;
+}
 .amona{
     display: flex;
 	flex-direction: column;
@@ -257,7 +260,7 @@ img.izq_horiz{
     display: flex;
     justify-content: center;
 }
-#carrTxispa, #carrLuna, #carrSinfa, #carrNeftis, #carrAmetz, #carrEguzki, #carrSatur, #carrWicca, #carrPiro, #carrDusha, #carrFenixa, #carrLucas, #carrRosco, #carrMisumi{
+#carrTxispa, #carrLuna, #carrSinfa, #carrNeftis, #carrAmetz, #carrEguzki, #carrSatur, #carrWicca, #carrPiro, #carrDusha, #carrFenixa, #carrLucas, #carrRosco, #carrMisumi, #carrPepaTomas{
     width: 400px;
 }
 #huella{

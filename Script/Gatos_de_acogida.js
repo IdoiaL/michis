@@ -112,7 +112,7 @@ function cambiarImagenRosco() {
    cambiarImagen ("carrRosco", imagenesRosco);
 }
 
-// Ventana modal de Misco
+// Ventana modal de Misumi
 Misumi_modal.addEventListener("click",e=>{
     ventanaMisumi.style.display = "block";
     intervalMisumi = setInterval(cambiarImagenMisumi, 2500);
@@ -126,6 +126,22 @@ cerrarMisumi.addEventListener("click",e=>{
 imagenesMisumi = ["Imagenes/3-Acogida/Misumi/Misumi3.jpg", "Imagenes/3-Acogida/Misumi/Misumi4.jpg", "Imagenes/3-Acogida/Misumi/Misumi5.jpg", "Imagenes/3-Acogida/Misumi/Misumi6.jpg", "Imagenes/3-Acogida/Misumi/Misumi7.jpg", "Imagenes/3-Acogida/Misumi/Misumi8.jpg", "Imagenes/3-Acogida/Misumi/Misumi9.jpg", "Imagenes/3-Acogida/Misumi/Misumi10.jpg", "Imagenes/3-Acogida/Misumi/Misumi11.jpg"];
 function cambiarImagenMisumi() {
    cambiarImagen ("carrMisumi", imagenesMisumi);
+}
+
+// Ventana modal de Pepa y Tomás
+PepaTomas_modal.addEventListener("click",e=>{
+    ventanaPepaTomas.style.display = "block";
+    intervalPepaTomas = setInterval(cambiarImagenPepaTomas, 2500);
+    return false;
+})
+cerrarPepaTomas.addEventListener("click",e=>{
+    ventanaPepaTomas.style.display = "none";
+    clearInterval(intervalPepaTomas);
+    return false;
+})
+imagenesPepaTomas = ["Imagenes/3-Acogida/PepaTomas/002Pepa.jpg", "Imagenes/3-Acogida/PepaTomas/003Tomas.jpg", "Imagenes/3-Acogida/PepaTomas/004PepaTomas.jpg", "Imagenes/3-Acogida/PepaTomas/005Tomas.jpg", "Imagenes/3-Acogida/PepaTomas/006Pepa.jpg", "Imagenes/3-Acogida/PepaTomas/007PepaTomas.jpg", "Imagenes/3-Acogida/PepaTomas/008PepaTomas.jpg", "Imagenes/3-Acogida/PepaTomas/009Tomas.jpg", "Imagenes/3-Acogida/PepaTomas/010Pepa.jpg", "Imagenes/3-Acogida/PepaTomas/011PepaTomas.jpg", "Imagenes/3-Acogida/PepaTomas/012PepaTomas.jpg", "Imagenes/3-Acogida/PepaTomas/013PepaTomasSinfaNeftis.jpg", "Imagenes/3-Acogida/PepaTomas/014Tomas.jpg", "Imagenes/3-Acogida/PepaTomas/015Pepa.jpg", "Imagenes/3-Acogida/PepaTomas/016PepaTomas.jpg",];
+function cambiarImagenPepaTomas() {
+   cambiarImagen ("carrPepaTomas", imagenesPepaTomas);
 }
 
 
